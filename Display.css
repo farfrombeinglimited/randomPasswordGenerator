@@ -1,0 +1,116 @@
+body{
+    background-color: #1f2937;
+}
+.Passwords-creator{
+    position: relative;
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-top: 50px;
+    padding-left: 40px;
+    width: 1380px;
+    height: 600px;
+}
+.Passwords-creator-texts{
+    display: flex;
+    flex-direction: column;
+}
+.first-half-section{
+    font-size: 60px;
+    color: whitesmoke;
+    font-family: 'Karla', sans-serif;
+}
+.second-half-section{
+    font-size: 60px;
+    color: goldenrod;
+    font-family: 'Karla', sans-serif;
+}
+#passwords-btn{
+    margin-top: 60px;
+    margin-bottom: 55px;
+    padding: 15px 10px;
+    width: 380px;
+    color: #1f2937;
+    background-color: goldenrod;
+    font-size: 30px;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 700;
+    border: 2px solid goldenrod;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#passwords-btn:hover{
+    background-color: gold;
+    border-color: gold;
+    transition: background-color 0.15s;
+}
+#passwords-btn:active{
+    background-color: #2F3E53;
+    color: goldenrod;
+}
+.passwords-display{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+.passwords-containers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    margin-bottom: 50px;
+}
+#passwords01{
+    font-family: 'Secular One', sans-serif;
+    font-size: 25px;
+    color: goldenrod;
+    border: 2px solid goldenrod;
+    background-color: #1f2937;
+    border-radius: 4px;
+    padding: 7px 25px;
+    max-width: 300px;
+    cursor: pointer;
+    height: 70px;
+}
+#passwords01:hover{
+    background-color: goldenrod;
+    color: #1f2937;
+    transition: background-color 0.15s;
+}
+#passwords01:active{
+    background-color: #2F3E53;
+    color: goldenrod;
+    border: 2px solid #2F3E53;
+}
+#passwords02{
+    font-family: 'Secular One', sans-serif;
+    font-size: 25px;
+    color: goldenrod;
+    border: 2px solid goldenrod;
+    background-color: #1f2937;
+    border-radius: 4px;
+    padding: 7px 25px;
+    max-width: 300px;
+    cursor: pointer;
+    height: 70px;
+}
+#passwords02:hover{
+    background-color: goldenrod;
+    color: #1f2937;
+    transition: background-color 0.15s;
+}
+#passwords02:active{
+    background-color: #2F3E53;
+    color: goldenrod;
+    border: 2px solid #2F3E53;
+}
+.dividing-line{
+    position: absolute;
+    top: 360px;
+    right: 40px;
+    left: 40px;
+    border: 1px solid #2F3E53;
+    height: 3px;
+    background-color: #2F3E53;
+}
